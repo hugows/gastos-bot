@@ -83,7 +83,6 @@ func removeFirstSeparator(s string) string {
 
 func GetPriceFromString(s string) float64 {
 	price := GetNumberFromString(s)
-	fmt.Println(price)
 	if price == "" {
 		return -1
 	}
